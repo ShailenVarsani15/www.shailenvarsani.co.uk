@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-water: #438EFF;
+  --color-ocean: #003687;
+  --color-white: #ffffff;
+
+  --graphic-square-lg: 100px;
+  --graphic-square-lg-spacing: 80px;
+
+  --heading-1--lg: 63px;
+
+  --paragraph-text-base: 1.25rem;
+  --paragraph-text-lg: 1.625rem;
+
+  --font-weight-skinny: 100;
+
+  --margin-small: 1.125rem;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  font-size: var(--heading-1--lg);
+  font-weight: 600;
+}
+
+p {
+  font-size: var(--paragraph-text-base);
+}
+
+a {
+  @apply text-base font-normal text-(--color-water) hover:text-(--color-ocean) transition duration-300;
+}
+
+button {
+  @apply border-none text-sm capitalize bg-(--color-water) hover:bg-(--color-ocean) transition ease-in-out duration-300;
+}
+
+#root {
+  width: 100%;
+  margin: 0;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}

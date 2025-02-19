@@ -1,0 +1,14 @@
+.menu-icon {
+    background-color: unset;
+    border: 1px solid white;
+    outline: 0; 
+}
+
+.menu-icon:hover {
+    background-color: unset;
+    border: var(--color-water) 1px solid;    
+}
+
+.menu-icon:focus {
+    outline: 0;
+}
