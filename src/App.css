@@ -3,7 +3,9 @@
 
 @theme {
   --color-water: #438EFF;
+  --color-water-dark: #005eeb;
   --color-ocean: #003687;
+  --color-ocean-dark: #001b43;
   --color-white: #ffffff;
 
   --graphic-square-lg: 100px;

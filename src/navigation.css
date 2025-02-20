@@ -12,3 +12,7 @@
 .menu-icon:focus {
     outline: 0;
 }
+
+.button__small > span {
+    margin-top: 2px;
+}

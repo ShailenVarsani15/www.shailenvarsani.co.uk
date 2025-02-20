@@ -10,8 +10,18 @@ export function Hero() {
                     <h1 className="text-6xl">Begin your transformation.</h1>
                     <p>I transform ideas into seamless digital experiences. I'm Shailen Varsani, a UI/UX Designer passionate about creating user-centered solutions that solve real problems.</p>
           <div className="flex items-center gap-x-4">
-                <a className="hero_button primary"><span>Get in touch</span></a>
-                <a className="hero_button secondary"><span>View work</span></a>
+                <a href="" className="hero__button primary shadow-1g flex justify-between">
+                    <span>Get in touch</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
+                        <path strokeLinecap="round" strokeLinejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+                    </svg>
+                </a>
+                <a href="" className="hero__button secondary flex justify-between">
+                    <span>View work</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
+                        <path strokeLinecap="round" strokeLinejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+                    </svg>
+                </a>
           </div>
                 </div>
                 <div className="hero__graphics basis-3xs">
@@ -22,6 +32,7 @@ export function Hero() {
                     <div className="hero__graphics__square bg-sky-500/50"></div>
                     <div className="hero__graphics__square bg-sky-500/40"></div>
                     <div className="hero__graphics__square bg-blue-500/30"></div>
+                    <div className="hero__graphics__square bg-sky-500/20"></div>
                 </div>
             </div>
         </div>
