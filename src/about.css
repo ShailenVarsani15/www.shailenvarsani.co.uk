@@ -1,0 +1,51 @@
+.about {
+    width: 100%;
+    height: calc(100vh - 5rem);
+    background-color: var(--color-white);
+}
+
+.about__picture {
+    position: relative;
+}
+
+.about__picture__profile {
+    position: relative;
+    border-radius: 8px;
+    z-index: 2;
+}
+
+.about__graphics__square {
+    position: absolute;
+    width: var(--graphic-square-lg);
+    height: var(--graphic-square-lg);
+    border-radius: 10px;
+    transform: rotate(45deg);
+}
+
+.about__graphics__square:nth-child(2) {
+    left: 30px;
+    top: -60px;
+    animation: opacity-pulse-variation-one 4s infinite;
+    z-index: 3;
+}
+
+.about__graphics__square:nth-child(3) {
+    left: -10px;
+    top: 70px;
+    animation: opacity-pulse-variation-two 3s infinite;
+    z-index: 1;
+}
+
+.about__graphics__square:nth-child(4) {
+    left: 210px;
+    top: 260px;
+    animation: opacity-pulse-variation-one 5s infinite;
+    z-index: 3;
+}
+
+.about__graphics__square:nth-child(5) {
+    left: 70px;
+    top: 410px;
+    animation: opacity-pulse-variation-two 3s infinite;
+    z-index: 3;
+}
