@@ -24,10 +24,11 @@
 }
 
 .hero__introduction > p {
-    font-size: var(--paragraph-text-lg);
     margin-top: var(--margin-small);
     margin-bottom: var(--margin-small);
+    font-size: var(--paragraph-text-lg);
     font-weight: var(--font-weight-skinny);
+    color: var(--color-white);
 }
 
 .hero__button {

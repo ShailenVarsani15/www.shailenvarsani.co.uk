@@ -7,11 +7,13 @@
   --color-ocean: #003687;
   --color-ocean-dark: #001b43;
   --color-white: #ffffff;
+  --color-black: #000000;
 
   --graphic-square-lg: 100px;
   --graphic-square-lg-spacing: 80px;
 
-  --heading-1--lg: 63px;
+  --heading-1-lg: 63px;
+  --heading-2-lg: 38px;
 
   --paragraph-text-base: 1.25rem;
   --paragraph-text-lg: 1.625rem;
@@ -26,16 +28,26 @@ body {
 }
 
 h1 {
-  font-size: var(--heading-1--lg);
+  font-size: var(--heading-1-lg);
+  font-weight: 600;
+}
+
+h2 {
+  font-size: var(--heading-2-lg);
+  color: var(--color-water);
   font-weight: 600;
 }
 
 p {
   font-size: var(--paragraph-text-base);
+  color: var(--color-black);
+  font-weight: 100;
+  margin-bottom: var(--margin-small);
 }
 
 a {
   @apply text-base font-normal text-(--color-water) hover:text-(--color-ocean) transition duration-300;
+  cursor: pointer;
 }
 
 button {
