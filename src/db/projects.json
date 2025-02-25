@@ -1,0 +1,50 @@
+[
+    {
+        "id" : 1,
+        "imgThumb" : "./src/assets/project-cards-placeholder-image.png",
+        "imgfull" : "./src/assets/project-modal-placeholder-image.png",
+        "company" : "Sparkpost",
+        "companyColor" : "orange",
+        "projectName" : "Email Upload Flow",
+        "jobTitle" : "UI Design",
+        "jobColor" : "indigo",
+        "excerpt" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean elementum nulla eu odio consequat, consectetur rhoncus urna venenatis. Maecenas in vehicula leo, et sodales quam.",
+        "projectDetails" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed elementum ligula quam, a congue risus congue ut. Suspendisse vestibulum nisi sapien, ut molestie nisi elementum vel. Donec id sagittis quam. Fusce sit amet maximus felis. Pellentesque porttitor venenatis leo eu luctus. Integer at erat et nulla fringilla ultrices sed non orci. Suspendisse tristique consectetur nulla egestas vehicula. Nam faucibus arcu a augue tincidunt faucibus ut tempus nibh. Pellentesque in felis id erat egestas hendrerit. Proin et dolor tortor. Suspendisse est lectus, efficitur et odio vitae, hendrerit malesuada tellus. Etiam malesuada neque at orci tincidunt imperdiet. Sed eleifend eu leo sed accumsan. Duis turpis libero, aliquam nec vulputate in, faucibus ut mi. Nullam porttitor odio est, euismod vulputate sapien placerat id. Mauris molestie sed arcu vitae pellentesque. Donec lacinia ultricies sem eu porta. Vestibulum porta diam purus, in interdum dui posuere id."
+    },
+    {
+        "id" : 2,
+        "imgThumb" : "./src/assets/project-cards-placeholder-image.png",
+        "imgfull" : "./src/assets/project-modal-placeholder-image.png",
+        "company" : "Taxi For Email",
+        "companyColor" : "blue",
+        "projectName" : "Conversations",
+        "jobTitle" : "UX/UI Design",
+        "jobColor" : "pink",
+        "excerpt" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean elementum nulla eu odio consequat, consectetur rhoncus urna venenatis. Maecenas in vehicula leo, et sodales quam.",
+        "projectDetails" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed elementum ligula quam, a congue risus congue ut. Suspendisse vestibulum nisi sapien, ut molestie nisi elementum vel. Donec id sagittis quam. Fusce sit amet maximus felis. Pellentesque porttitor venenatis leo eu luctus. Integer at erat et nulla fringilla ultrices sed non orci. Suspendisse tristique consectetur nulla egestas vehicula. Nam faucibus arcu a augue tincidunt faucibus ut tempus nibh. Pellentesque in felis id erat egestas hendrerit. Proin et dolor tortor. Suspendisse est lectus, efficitur et odio vitae, hendrerit malesuada tellus. Etiam malesuada neque at orci tincidunt imperdiet. Sed eleifend eu leo sed accumsan. Duis turpis libero, aliquam nec vulputate in, faucibus ut mi. Nullam porttitor odio est, euismod vulputate sapien placerat id. Mauris molestie sed arcu vitae pellentesque. Donec lacinia ultricies sem eu porta. Vestibulum porta diam purus, in interdum dui posuere id."
+    },
+    {
+        "id" : 3,
+        "imgThumb" : "./src/assets/project-cards-placeholder-image.png",
+        "imgfull" : "./src/assets/project-modal-placeholder-image.png",
+        "company" : "Taxi For Email",
+        "companyColor" : "blue",
+        "projectName" : "Recent Exports",
+        "jobTitle" : "UI Design",
+        "jobColor" : "indigo",
+        "excerpt" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean elementum nulla eu odio consequat, consectetur rhoncus urna venenatis. Maecenas in vehicula leo, et sodales quam.",
+        "projectDetails" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed elementum ligula quam, a congue risus congue ut. Suspendisse vestibulum nisi sapien, ut molestie nisi elementum vel. Donec id sagittis quam. Fusce sit amet maximus felis. Pellentesque porttitor venenatis leo eu luctus. Integer at erat et nulla fringilla ultrices sed non orci. Suspendisse tristique consectetur nulla egestas vehicula. Nam faucibus arcu a augue tincidunt faucibus ut tempus nibh. Pellentesque in felis id erat egestas hendrerit. Proin et dolor tortor. Suspendisse est lectus, efficitur et odio vitae, hendrerit malesuada tellus. Etiam malesuada neque at orci tincidunt imperdiet. Sed eleifend eu leo sed accumsan. Duis turpis libero, aliquam nec vulputate in, faucibus ut mi. Nullam porttitor odio est, euismod vulputate sapien placerat id. Mauris molestie sed arcu vitae pellentesque. Donec lacinia ultricies sem eu porta. Vestibulum porta diam purus, in interdum dui posuere id."
+    },
+    {
+        "id" : 4,
+        "imgThumb" : "./src/assets/project-cards-placeholder-image.png",
+        "imgfull" : "./src/assets/project-modal-placeholder-image.png",
+        "company" : "Taxi For Email",
+        "companyColor" : "blue",
+        "projectName" : "Taxi Design System Upload",
+        "jobTitle" : "UX/UI Design",
+        "jobColor" : "pink",
+        "excerpt" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean elementum nulla eu odio consequat, consectetur rhoncus urna venenatis. Maecenas in vehicula leo, et sodales quam.",
+        "projectDetails" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed elementum ligula quam, a congue risus congue ut. Suspendisse vestibulum nisi sapien, ut molestie nisi elementum vel. Donec id sagittis quam. Fusce sit amet maximus felis. Pellentesque porttitor venenatis leo eu luctus. Integer at erat et nulla fringilla ultrices sed non orci. Suspendisse tristique consectetur nulla egestas vehicula. Nam faucibus arcu a augue tincidunt faucibus ut tempus nibh. Pellentesque in felis id erat egestas hendrerit. Proin et dolor tortor. Suspendisse est lectus, efficitur et odio vitae, hendrerit malesuada tellus. Etiam malesuada neque at orci tincidunt imperdiet. Sed eleifend eu leo sed accumsan. Duis turpis libero, aliquam nec vulputate in, faucibus ut mi. Nullam porttitor odio est, euismod vulputate sapien placerat id. Mauris molestie sed arcu vitae pellentesque. Donec lacinia ultricies sem eu porta. Vestibulum porta diam purus, in interdum dui posuere id."
+    }
+]

@@ -2,18 +2,37 @@
 @import "tailwindcss";
 
 @theme {
+  --color-primary: #00424d;
+  --color-primary-hover: #005b6a;
+  --color-secondary: #006879;
+  --color-secondary-hover: #005361;
+
   --color-water: #438EFF;
   --color-water-dark: #005eeb;
-  --color-ocean: #003687;
+  --color-ocean: #daf8fc;
+  --color-mint: #daf8fc;
   --color-ocean-dark: #001b43;
+
+  /* Monochromatic Colour Shades */
   --color-white: #ffffff;
-  --color-black: #000000;
+  --color-black: #001012;
+  --color-primary: #00b8d6;
+  --color-primary-10: #00a7c3;
+  --color-primary-20: #0096af;
+  --color-primary-30: #00859b;
+  --color-primary-40: #007488;
+  --color-primary-50: #006474;
+  --color-primary-60: #005361;
+  --color-primary-70: #00424d;
+  --color-primary-80: #003139;
+  --color-primary-90: #002026;
 
   --graphic-square-lg: 100px;
   --graphic-square-lg-spacing: 80px;
 
   --heading-1-lg: 63px;
   --heading-2-lg: 38px;
+  --heading-3-lg: 22px;
 
   --paragraph-text-base: 1.25rem;
   --paragraph-text-lg: 1.625rem;
@@ -34,7 +53,13 @@ h1 {
 
 h2 {
   font-size: var(--heading-2-lg);
-  color: var(--color-water);
+  color: var(--color-primary-50);
+  font-weight: 600;
+}
+
+h3 {
+  font-size: var(--heading-3-lg);
+  color: var(--color-primary-50);
   font-weight: 600;
 }
 
@@ -46,12 +71,12 @@ p {
 }
 
 a {
-  @apply text-base font-normal text-(--color-water) hover:text-(--color-ocean) transition duration-300;
+  @apply text-base font-normal text-(--color-white) hover:text-(--color-primary) transition duration-300;
   cursor: pointer;
 }
 
 button {
-  @apply border-none text-sm capitalize bg-(--color-water) hover:bg-(--color-ocean) transition ease-in-out duration-300;
+  @apply border-none text-sm capitalize bg-(--color-primary-50) hover:bg-(--color-primary-30) transition ease-in-out duration-300;
 }
 
 #root {

@@ -5,6 +5,7 @@ import './App.css'
 import { StickyNavbar } from "./navigation";
 import Hero from './hero';
 import About from './about';
+import Work from './work';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -14,7 +15,8 @@ function App() {
     <StickyNavbar />
     <Hero />
     <About />
-      <div>
+    <Work />
+      {/* <div>
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
@@ -33,7 +35,7 @@ function App() {
       </div>
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
-      </p>
+      </p> */}
     </>
   )
 }
