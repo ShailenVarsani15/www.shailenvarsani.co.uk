@@ -25,7 +25,7 @@ const [open, setOpen] = React.useState(false);
 const handleOpen = () => setOpen(!open);
 
     return(
-        <div className="card">
+        <div className="card flex-1">
             <img src={imgThumb} alt="" />
             <div className="card__information">
                 <div className="flex gap-2 mb-2">

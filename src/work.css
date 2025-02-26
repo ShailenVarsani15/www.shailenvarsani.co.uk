@@ -9,7 +9,7 @@
 }
 
 .card {
-    width: 400px;
+    max-width: 400px;
     background-color: var(--color-white);
     border-radius: 8px;
     padding: 0;
