@@ -1,0 +1,8 @@
+.footer {
+    background-color: var(--color-primary-80);
+}
+
+.footer p {
+    color: var(--color-black-20);
+    margin: 0;
+}
