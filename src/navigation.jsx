@@ -44,14 +44,13 @@ export function StickyNavbar() {
         className="p-1 font-normal"
       >
         <a onClick={() => {
-                const element = document.getElementById('work');
-                const yOffset = +10;
-                element?.scrollIntoView({
-                behavior: 'smooth',
-                block: 'center' 
-              }); 
-            }} 
-        className="flex items-center">View Work</a>
+          const element = document.getElementById('work');
+          if (element) {
+            const yOffset = -40;
+            const y = element.getBoundingClientRect().top + window.pageYOffset + yOffset;
+            window.scrollTo({ top: y, behavior: 'smooth' });
+          }
+        }} className="flex items-center">View Work</a>
       </Typography>
       <Typography
         as="li"

@@ -22,16 +22,15 @@ export function Footer() {
         </li>
         <li>
         <Typography className="font-normal transition-colors hover:text-blue-500 focus:text-blue-500">
-            <a onClick={() => {
-                const element = document.getElementById('work');
-                const yOffset = +10;
-                element?.scrollIntoView({
-                behavior: 'smooth',
-                block: 'center' 
-              }); 
-            }} 
-        className="flex items-center">View Work</a>
-          </Typography>
+        <a onClick={() => {
+          const element = document.getElementById('work');
+          if (element) {
+            const yOffset = -40;
+            const y = element.getBoundingClientRect().top + window.pageYOffset + yOffset;
+            window.scrollTo({ top: y, behavior: 'smooth' });
+          }
+        }} className="flex items-center">View Work</a>
+        </Typography>
         </li>
         <li>
           <Typography className="font-normal transition-colors hover:text-blue-500 focus:text-blue-500">
