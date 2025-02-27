@@ -1,7 +1,7 @@
 .about {
     width: 100%;
     height: calc(100vh - 5rem);
-    background-color: var(--color-white);
+    background-color: var(--color-black-10);
 }
 
 .about__picture {

@@ -1,5 +1,5 @@
 .work {
-    background-color: var(--color-primary-60);
+    background-color: var(--color-black-20);
     padding-top: 80px;
     padding-bottom: 80px;
 }
@@ -29,4 +29,8 @@
 
 .card__dialog {
     color: var(--color-black);
+}
+
+.card__information > h3 {
+    color: var(--color-primary-60);
 }
