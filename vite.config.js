@@ -7,4 +7,5 @@ export default defineConfig({
   plugins: [
     tailwindcss(),
     react()],
+    base: "/www.shailenvarsani.co.uk"
 })
