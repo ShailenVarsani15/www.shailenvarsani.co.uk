@@ -1,0 +1,32 @@
+.work {
+    background-color: var(--color-primary-60);
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.work > h2 {
+    color: var(--color-white);
+}
+
+.card {
+    max-width: 400px;
+    background-color: var(--color-white);
+    border-radius: 8px;
+    padding: 0;
+}
+
+.card > img {
+    border-radius: 8px 8px 0 0;
+}
+
+.card__information {
+    padding: 1rem;
+}
+
+.card__information > span {
+    color: var(--color-ocean);
+}
+
+.card__dialog {
+    color: var(--color-black);
+}

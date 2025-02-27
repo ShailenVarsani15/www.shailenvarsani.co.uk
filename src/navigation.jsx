@@ -43,9 +43,15 @@ export function StickyNavbar() {
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <a href="#" className="flex items-center">
-          View work
-        </a>
+        <a onClick={() => {
+                const element = document.getElementById('work');
+                const yOffset = +10;
+                element?.scrollIntoView({
+                behavior: 'smooth',
+                block: 'center' 
+              }); 
+            }} 
+        className="flex items-center">View Work</a>
       </Typography>
       <Typography
         as="li"
@@ -64,9 +70,9 @@ export function StickyNavbar() {
  
   return (
     <div>
-      <Navbar className="fixed shadow-x1 top-0 z-10 h-max max-w-full rounded-none px-4 py-2 lg:px-8 lg:py-4">
+      <Navbar className="navigation fixed shadow-x1 top-0 z-10 h-max max-w-full rounded-none px-4 py-2 lg:px-8 lg:py-4">
         <div className="flex items-center justify-between text-blue-gray-900">
-          <Typography as="span" variant="h4" href="#" color="black" className="mr-4 cursor-pointer py-1.5 font-normal">Shailen Varsani</Typography>
+          <Typography as="span" variant="h4" href="#" color="white" className="mr-4 cursor-pointer py-1.5 font-normal">Shailen Varsani</Typography>
           <div className="flex items-center gap-4">
             <div className="mr-4 hidden lg:block">{navList}</div>
             <div className="flex justify-between gap-x-1">
