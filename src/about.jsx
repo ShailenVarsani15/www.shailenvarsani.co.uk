@@ -3,6 +3,8 @@ import "./about.css";
 import {Button} from '@material-tailwind/react'
 
 export function About() {
+
+    const BASE_URL = import.meta.env.BASE_URL;
  
     const scrollToContact = () => {
         const element = document.getElementById('contact');
@@ -17,7 +19,7 @@ export function About() {
         <div id="about" className="about flex items-center gap-20 lg:px-80 lg:py-60">
             <div className="about__picture flex items-center ">
                 <div className="basis-3xs">
-                    <img className="about__picture__profile" src="./src/assets/shailen-picture.png" alt="" />
+                    <img className="about__picture__profile" src={BASE_URL + "/images/shailen-picture.png"} alt="" />
                     <div className="about__graphics__square bg-[var(--color-primary-30)]"></div>
                     <div className="about__graphics__square bg-[var(--color-primary-30)]"></div>
                     <div className="about__graphics__square bg-[var(--color-primary-30)]"></div>
