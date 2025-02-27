@@ -5,13 +5,14 @@
 
 .menu-icon {
     background-color: unset;
-    border: 1px solid white;
-    outline: 0; 
+    border: 1px solid var(--color-primary-60);
+    outline: 0;
+    transform: scale(1.2);
 }
 
 .menu-icon:hover {
     background-color: unset;
-    border: var(--color-water) 1px solid;    
+    border: var(--color-primary-80) 1px solid;    
 }
 
 .menu-icon:focus {
@@ -21,3 +22,24 @@
 .button__small > span {
     margin-top: 2px;
 }
+
+@media only screen and (max-width: 500px) {
+    .nav-wrapper {
+        position: relative;
+    }
+    
+    .navigation {
+        position: fixed;
+        top: 21px;
+        border-radius: 8px;
+        width: 91%;
+        margin-left: 20px;
+        margin-right: 20px;
+        padding: 16px 20px;
+        box-shadow: rgba(50, 50, 93, 0.30) 0px 40px 26px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    }
+
+    .nav__button {
+        margin-bottom: 67vh;
+    }
+  }

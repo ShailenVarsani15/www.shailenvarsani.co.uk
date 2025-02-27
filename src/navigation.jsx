@@ -28,14 +28,13 @@ export function StickyNavbar() {
         className="p-1 font-normal"
       >
         <a onClick={() => {
-                const element = document.getElementById('about');
-                const yOffset = +10;
-                element?.scrollIntoView({
-                behavior: 'smooth',
-                block: 'center' 
-              }); 
-            }} 
-        className="flex items-center">About me</a>
+          const element = document.getElementById('about');
+          if (element) {
+            const yOffset = 0;
+            const y = element.getBoundingClientRect().top + window.pageYOffset + yOffset;
+            window.scrollTo({ top: y, behavior: 'smooth' });
+          } setOpenNav(false);
+        }} className="flex items-center">About Me</a>
       </Typography>
       <Typography
         as="li"
@@ -49,7 +48,7 @@ export function StickyNavbar() {
             const yOffset = -40;
             const y = element.getBoundingClientRect().top + window.pageYOffset + yOffset;
             window.scrollTo({ top: y, behavior: 'smooth' });
-          }
+          } setOpenNav(false);
         }} className="flex items-center">View Work</a>
       </Typography>
       <Typography
@@ -63,8 +62,8 @@ export function StickyNavbar() {
                 const yOffset = +10;
                 element?.scrollIntoView({
                 behavior: 'smooth',
-                block: 'center' 
-              }); 
+                block: 'start' 
+              }); setOpenNav(false);
             }} 
         className="flex items-center">Contact</a>
       </Typography>
@@ -74,7 +73,7 @@ export function StickyNavbar() {
   const aboutRef = useRef<HTMLDivElement | null >(null);
  
   return (
-    <div>
+    <div className="nav-wrapper">
       <Navbar className="navigation fixed shadow-x1 top-0 z-10 h-max max-w-full rounded-none px-4 py-2 lg:px-8 lg:py-4">
         <div className="flex items-center justify-between text-blue-gray-900">
           <Typography as="span" variant="h4" href="#" color="white" className="mr-4 cursor-pointer py-1.5 font-normal">Shailen Varsani</Typography>
@@ -102,7 +101,7 @@ export function StickyNavbar() {
                   fill="none"
                   className="h-6 w-6"
                   viewBox="0 0 24 24"
-                  stroke="black"
+                  stroke="white"
                   strokeWidth={2}
                 >
                   <path
@@ -116,7 +115,7 @@ export function StickyNavbar() {
                   xmlns="http://www.w3.org/2000/svg"
                   className="h-6 w-6"
                   fill="none"
-                  stroke="black"
+                  stroke="white"
                   strokeWidth={2}
                 >
                   <path
@@ -132,9 +131,13 @@ export function StickyNavbar() {
         <MobileNav open={openNav}>
           {navList}
           <div className="flex items-center gap-x-1">
-            <Button fullWidth variant="gradient" size="sm" className="">
-              <span>Github</span>
-            </Button>
+          <Button variant="button" size="sm" className="nav__button button__small lg:inline-block flex gap-2">
+                <span className="">Github</span>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="size-5">
+                  <path fillRule="evenodd" d="M4.25 5.5a.75.75 0 0 0-.75.75v8.5c0 .414.336.75.75.75h8.5a.75.75 0 0 0 .75-.75v-4a.75.75 0 0 1 1.5 0v4A2.25 2.25 0 0 1 12.75 17h-8.5A2.25 2.25 0 0 1 2 14.75v-8.5A2.25 2.25 0 0 1 4.25 4h5a.75.75 0 0 1 0 1.5h-5Z" clipRule="evenodd" />
+                  <path fillRule="evenodd" d="M6.194 12.753a.75.75 0 0 0 1.06.053L16.5 4.44v2.81a.75.75 0 0 0 1.5 0v-4.5a.75.75 0 0 0-.75-.75h-4.5a.75.75 0 0 0 0 1.5h2.553l-9.056 8.194a.75.75 0 0 0-.053 1.06Z" clipRule="evenodd" />
+                </svg>
+              </Button>
           </div>
         </MobileNav>
       </Navbar>

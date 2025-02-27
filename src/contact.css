@@ -94,3 +94,43 @@ form > li:hover {
     margin-top: 10px;
     border-radius: 4px;
 }
+
+@media only screen and (max-width:500px) {
+    .contact {
+        padding: 80px 40px;
+    }
+
+    .contact > h2 {
+        margin-top: 40px;
+        margin-bottom: 20px;
+        color: var(--color-white);
+    }
+
+    .contact-column {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .contact__block {
+        align-items: start;
+        padding-left: 0;
+    }
+
+    .contact__block:first-child {
+        margin-top: 40px;
+    }
+
+    .social__buttons {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        grid-column: 3;
+        grid-gap: 10px;
+    }
+
+    .button__social {
+        width: 126px;
+    }
+    .button__social > span {
+        padding-right: 10px;
+    }
+}
