@@ -27,9 +27,11 @@ const [open, setOpen] = React.useState(false);
  
 const handleOpen = () => setOpen(!open);
 
+const BASE_URL = import.meta.env.BASE_URL;
+
     return(
         <div className="card flex-1">
-            <img src={imgThumb} alt="" />
+            <img src={BASE_URL + imgThumb} alt="" />
             <div className="card__information">
                 <div className="flex gap-2 mb-2">
                     <Chip size="sm" color={companyColor} className="inline text-xs font-normal camelcase" value={company} />
@@ -42,7 +44,7 @@ const handleOpen = () => setOpen(!open);
             <Dialog open={open} handler={handleOpen} className="card__dialog">
                 <DialogHeader>{projectName}</DialogHeader>
                 <DialogBody>
-                    <img className="pb-6" src={projectImg} alt="" />
+                    <img className="pb-6" src={BASE_URL + projectImg} alt="" />
                     <div className="project-information overscroll-contain">
                         <p><strong>Problem: </strong>{problem}</p>
                         <p><strong>Solution: </strong>{solution}</p>

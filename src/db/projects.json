@@ -1,8 +1,8 @@
 [
     {
         "id" : 1,
-        "imgThumb" : "./src/assets/taxi-for-email-expectations-thumb.png",
-        "imgfull" : "./src/assets/taxi-for-email-expectations-character-limit.gif",
+        "imgThumb" : "/images/taxi-for-email-expectations-thumb.png",
+        "imgfull" : "/images/taxi-for-email-expectations-character-limit.gif",
         "company" : "Taxi For Email",
         "companyColor" : "blue",
         "projectName" : "Email Editor Expectations",
@@ -16,8 +16,8 @@
     },
     {
         "id" : 2,
-        "imgThumb" : "./src/assets/taxi-for-email-expectations-mailing-comp-thumb.png",
-        "imgfull" : "./src/assets/taxi-for-email-expectations-mailing-comp.png",
+        "imgThumb" : "/images/taxi-for-email-expectations-mailing-comp-thumb.png",
+        "imgfull" : "/images/taxi-for-email-expectations-mailing-comp.png",
         "company" : "Taxi For Email",
         "companyColor" : "blue",
         "projectName" : "Mailing List Expectations",
@@ -31,8 +31,8 @@
     },
     {
         "id" : 3,
-        "imgThumb" : "./src/assets/taxi-for-email-conversations-thumb.png",
-        "imgfull" : "./src/assets/taxi-for-email-conversations_reviewing_modules.gif",
+        "imgThumb" : "/images/taxi-for-email-conversations-thumb.png",
+        "imgfull" : "/images/taxi-for-email-conversations_reviewing_modules.gif",
         "company" : "Taxi For Email",
         "companyColor" : "blue",
         "projectName" : "Conversations",
@@ -46,8 +46,8 @@
     },
     {
         "id" : 4,
-        "imgThumb" : "./src/assets/taxi-for-email-recent-exports-comp-thumb.png",
-        "imgfull" : "./src/assets/taxi-for-email-recent-exports-comp.png",
+        "imgThumb" : "/images/taxi-for-email-recent-exports-comp-thumb.png",
+        "imgfull" : "/images/taxi-for-email-recent-exports-comp.png",
         "company" : "Taxi For Email",
         "companyColor" : "blue",
         "projectName" : "Recent Exports",
@@ -61,8 +61,8 @@
     },
     {
         "id" : 5,
-        "imgThumb" : "./src/assets/taxi-for-email-eds-overview-tab-thumb.png",
-        "imgfull" : "./src/assets/taxi-for-email-eds-overview-tab.png",
+        "imgThumb" : "/images/taxi-for-email-eds-overview-tab-thumb.png",
+        "imgfull" : "/images/taxi-for-email-eds-overview-tab.png",
         "company" : "Taxi For Email",
         "companyColor" : "blue",
         "projectName" : "Email Design System General Tab",
@@ -76,8 +76,8 @@
     },
     {
         "id" : 6,
-        "imgThumb" : "./src/assets/taxi-for-email-brands-settings-thumb.png",
-        "imgfull" : "./src/assets/taxi-for-email-brands-settings.png",
+        "imgThumb" : "/images/taxi-for-email-brands-settings-thumb.png",
+        "imgfull" : "/images/taxi-for-email-brands-settings.png",
         "company" : "Taxi For Email",
         "companyColor" : "blue",
         "projectName" : "Email Design System Brands Tab",
@@ -91,8 +91,8 @@
     },
     {
         "id" : 7,
-        "imgThumb" : "./src/assets/taxi-for-email-naming-convention-editor-thumb.png",
-        "imgfull" : "./src/assets/taxi-for-email-naming-convention-editor.png",
+        "imgThumb" : "/images/taxi-for-email-naming-convention-editor-thumb.png",
+        "imgfull" : "/images/taxi-for-email-naming-convention-editor.png",
         "company" : "Taxi For Email",
         "companyColor" : "blue",
         "projectName" : "Naming Convention Editor",
@@ -106,8 +106,8 @@
     },
     {
         "id" : 8,
-        "imgThumb" : "./src/assets/taxi-for-email-using-naming-convention-thumb.png",
-        "imgfull" : "./src/assets/taxi-for-email-using-naming-convention.png",
+        "imgThumb" : "/images/taxi-for-email-using-naming-convention-thumb.png",
+        "imgfull" : "/images/taxi-for-email-using-naming-convention.png",
         "company" : "Taxi For Email",
         "companyColor" : "blue",
         "projectName" : "Naming Convention Input",
