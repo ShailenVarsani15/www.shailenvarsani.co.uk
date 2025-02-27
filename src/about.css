@@ -48,3 +48,52 @@
     animation: opacity-pulse-variation-two 3s infinite;
     z-index: 3;
 }
+
+@media only screen and (max-width: 500px) {
+    .about {
+        flex-wrap: wrap;
+        padding: 160px 0 70px 0;
+    }
+
+    .about__picture {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .about__graphics__square {
+        position: absolute;
+        width: var(--graphic-square-lg);
+        height: var(--graphic-square-lg);
+        border-radius: 10px;
+        transform: rotate(45deg);
+    }
+    
+    .about__graphics__square:nth-child(2) {
+        left: 130px;
+        top: -60px;
+        animation: opacity-pulse-variation-one 4s infinite;
+        z-index: 3;
+    }
+    
+    .about__graphics__square:nth-child(3) {
+        left: 90px;
+        top: 70px;
+        animation: opacity-pulse-variation-two 3s infinite;
+        z-index: 1;
+    }
+    
+    .about__graphics__square:nth-child(4) {
+        left: 320px;
+        top: 260px;
+        animation: opacity-pulse-variation-one 5s infinite;
+        z-index: 3;
+    }
+    
+    .about__graphics__square:nth-child(5) {
+        left: 170px;
+        top: 410px;
+        animation: opacity-pulse-variation-two 3s infinite;
+        z-index: 3;
+    }
+
+}

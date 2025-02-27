@@ -127,3 +127,23 @@
     }
 }
 
+@media only screen and (max-width: 500px) {
+    .hero {
+        margin-top: 0;
+        height: 100vh;
+    }
+
+    .hero__introduction {
+        margin-top: calc(100vh - 70vh);
+    }
+
+    .hero__introduction p {
+        font-size: 24px;
+    }
+
+    .hero__graphics {
+        margin-top: 0 !important;
+        rotate: 90deg;
+    }
+}
+
