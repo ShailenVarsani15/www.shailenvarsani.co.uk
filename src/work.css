@@ -5,7 +5,7 @@
 }
 
 .work > h2 {
-    color: var(--color-white);
+    color: var(--color-primary-60);
 }
 
 .card {
@@ -13,6 +13,12 @@
     background-color: var(--color-white);
     border-radius: 8px;
     padding: 0;
+    transition: all ease-in-out 500ms;
+}
+
+.card:hover {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background-color: var(--color-black-10);
 }
 
 .card > img {
