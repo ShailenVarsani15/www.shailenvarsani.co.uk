@@ -46,7 +46,7 @@ export function Contact() {
     };
 
     return(
-        <div className="contact grid lg:grid-cols-2 gap-4 py-40 px-10">
+        <div id="contact" className="contact grid lg:grid-cols-2 gap-4 py-40 px-10">
             <div className="flex flex-col items-center justify-center">
                 <div className="contact__block">
                     <h3><i class="fa-solid fa-location-dot"></i>Address</h3>

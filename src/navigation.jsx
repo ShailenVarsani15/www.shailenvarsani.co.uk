@@ -59,9 +59,15 @@ export function StickyNavbar() {
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <a href="#" className="flex items-center">
-          Contact
-        </a>
+        <a onClick={() => {
+                const element = document.getElementById('contact');
+                const yOffset = +10;
+                element?.scrollIntoView({
+                behavior: 'smooth',
+                block: 'center' 
+              }); 
+            }} 
+        className="flex items-center">Contact</a>
       </Typography>
     </ul>
   );
