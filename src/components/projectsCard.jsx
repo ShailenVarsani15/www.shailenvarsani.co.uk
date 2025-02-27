@@ -17,7 +17,10 @@ export function ProjectsCard({
     projectImg,
     projectDetails = "Project Details here",
     companyColor = "blue",
-    jobColor = "green"
+    jobColor = "green",
+    problem = "Problem",
+    solution = "Solution",
+    outcome = "Outcome"
 }) {
 
 const [open, setOpen] = React.useState(false);
@@ -39,8 +42,13 @@ const handleOpen = () => setOpen(!open);
             <Dialog open={open} handler={handleOpen} className="card__dialog">
                 <DialogHeader>{projectName}</DialogHeader>
                 <DialogBody>
-                    <img src={projectImg} alt="" />
-                    {projectDetails}
+                    <img className="pb-6" src={projectImg} alt="" />
+                    <div className="project-information overscroll-contain">
+                        <p><strong>Problem: </strong>{problem}</p>
+                        <p><strong>Solution: </strong>{solution}</p>
+                        <p><strong>Outcome: </strong>{outcome}</p>
+                        
+                    </div>
                 </DialogBody>
                 <DialogFooter>
                     <Button onClick={handleOpen}>

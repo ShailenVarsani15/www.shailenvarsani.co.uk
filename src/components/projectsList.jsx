@@ -25,6 +25,9 @@ export function ProjectsList() {
                     excerpt={item.excerpt}
                     projectImg={item.imgfull}
                     projectDetails={item.projectDetails}
+                    problem={item.problem}
+                    solution={item.solution}
+                    outcome={item.outcome}
                 />
             ))}
         </>
