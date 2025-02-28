@@ -46,3 +46,20 @@
         margin-bottom: 12px;
     }
 }
+
+@media only screen and (max-width: 380px) {
+    .work {
+        padding: 60px 5% 80px;
+    }
+
+    .work > h2, 
+    .work > p {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .work__container {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}

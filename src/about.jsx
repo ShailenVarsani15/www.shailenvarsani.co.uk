@@ -16,7 +16,7 @@ export function About() {
       };
  
     return(
-        <div id="about" className="about flex items-center gap-20 lg:px-80 lg:py-60">
+        <div id="about" className="about flex items-center lg:gap-20 lg:px-80 lg:py-60">
             <div className="about__picture flex items-center ">
                 <div className="basis-3xs">
                     <img className="about__picture__profile" src={BASE_URL + "/images/shailen-picture.png"} alt="" />

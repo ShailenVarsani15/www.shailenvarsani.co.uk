@@ -95,5 +95,51 @@
         animation: opacity-pulse-variation-two 3s infinite;
         z-index: 3;
     }
+}
 
+@media only screen and (max-width: 380px) {
+    .about {
+        padding-top: 140px;
+    }
+    
+    .about__info {
+        margin-top: 30px;
+        padding-bottom: 0;
+    }
+
+    .about__graphics__square {
+        position: absolute;
+        width: var(--graphic-square-sm);
+        height: var(--graphic-square-sm);
+        border-radius: 10px;
+        transform: rotate(45deg);
+    }
+    
+    .about__graphics__square:nth-child(2) {
+        left: 100px;
+        top: -47px;
+        animation: opacity-pulse-variation-one 4s infinite;
+        z-index: 3;
+    }
+    
+    .about__graphics__square:nth-child(3) {
+        left: 40px;
+        top: 70px;
+        animation: opacity-pulse-variation-two 3s infinite;
+        z-index: 1;
+    }
+    
+    .about__graphics__square:nth-child(4) {
+        left: 280px;
+        top: 290px;
+        animation: opacity-pulse-variation-one 5s infinite;
+        z-index: 3;
+    }
+    
+    .about__graphics__square:nth-child(5) {
+        left: 170px;
+        top: 410px;
+        animation: opacity-pulse-variation-two 3s infinite;
+        z-index: 3;
+    }
 }
