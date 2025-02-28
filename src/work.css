@@ -45,6 +45,11 @@
     .card__dialog p {
         margin-bottom: 12px;
     }
+
+    .project-information {
+        height: 300px;
+        overflow: scroll;
+    }
 }
 
 @media only screen and (max-width: 380px) {
