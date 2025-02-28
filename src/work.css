@@ -40,3 +40,9 @@
 .card__information > h3 {
     color: var(--color-primary-60);
 }
+
+@media only screen and (max-width: 500px) {
+    .card__dialog p {
+        margin-bottom: 12px;
+    }
+}

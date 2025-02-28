@@ -43,8 +43,8 @@ const BASE_URL = import.meta.env.BASE_URL;
             </div>
             <Dialog open={open} handler={handleOpen} className="card__dialog">
                 <DialogHeader>{projectName}</DialogHeader>
-                <DialogBody>
-                    <img className="pb-6" src={BASE_URL + projectImg} alt="" />
+                <DialogBody className="py-0">
+                    <img className="pb-4" src={BASE_URL + projectImg} alt="" />
                     <div className="project-information overscroll-contain">
                         <p><strong>Problem: </strong>{problem}</p>
                         <p><strong>Solution: </strong>{solution}</p>
@@ -52,7 +52,7 @@ const BASE_URL = import.meta.env.BASE_URL;
                         
                     </div>
                 </DialogBody>
-                <DialogFooter>
+                <DialogFooter className="pt-0">
                     <Button onClick={handleOpen}>
                         <span>Close</span>
                     </Button>

@@ -128,7 +128,8 @@ form > li:hover {
     }
 
     .button__social {
-        width: 126px;
+        width: 110px;
+        padding: 8px 6px;
     }
     .button__social > span {
         padding-right: 10px;
