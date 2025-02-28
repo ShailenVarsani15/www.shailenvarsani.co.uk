@@ -135,3 +135,18 @@ form > li:hover {
         padding-right: 10px;
     }
 }
+
+@media only screen and (max-width: 380px) {
+    .contact {
+        padding: 60px 5%;
+    }
+
+    .contact h2 {
+        margin-top: 0;
+    }
+
+    .button__social {
+        width: 106px;
+        padding: 8px 6px;
+    }
+}
