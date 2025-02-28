@@ -9,7 +9,7 @@
         "jobTitle" : "UI Design",
         "jobColor" : "indigo",
         "excerpt" : "Designing a validation system that can be applied to fields based on a clients Email Design System that require their staff to make a changes to meet expectation from the Design System.",
-        "projectDetails" : "Creating a validation system that can be applied to fields based on a clients Email Design System that require their staff to make a changes to adhere to their required needs for email design. Clients expressed to me a great frustration when using the Taxi For Email WebApp that their staff responsible for making emails did not know which fields needed to be changed, required to be changed and appropriate character length and image to be used. I clearly identified that there is a need for the User Interface to highlight email campaign cards, different email versions and within each email version inside the Email Editor that fields needed to be highlighted that was clear to the user but not in any way intrusive which put off that overall aesthetic of the email editor had content that needed to be changed or specific types of content. I designed a unique way to display validations on fields by utilising border on the left side of the field which ensured that the validation was not intrusive but still ensured users that this is a field that had a requirement set from the Email Design System. I took this design proposal to our development team and pitched what the requirement was and the solution I proposed and asked for feedback on whether this could be implemented. All developers agreed that this functionality could be built into the Taxi Email Editor. To test this design I asked clients who initially expressed their concerns regarding fields that needed to meet the Email Design System needs and see if they could clearly see if a field does not meet the spec of their Design System and they had agreed that it really helped solved their needs.",
+        "projectDetails" : "",
         "problem" : "Clients struggled with unclear field validation in our email editor, leading to errors and frustration when adhering to their design systems.",
         "solution" : "I designed a non-intrusive left-border validation system to highlight required field changes.",
         "outcome" : "Developers approved and implemented the design, and client testing confirmed it effectively addressed their validation issues."
@@ -24,10 +24,10 @@
         "jobTitle" : "UI Design",
         "jobColor" : "indigo",
         "excerpt" : "Designing a validation system that can be applied to lists on the UI based on a clients Email Design System that require their staff to make a changes to meet expectation from the Design System.",
-        "projectDetails" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed elementum ligula quam, a congue risus congue ut. Suspendisse vestibulum nisi sapien, ut molestie nisi elementum vel. Donec id sagittis quam. Fusce sit amet maximus felis. Pellentesque porttitor venenatis leo eu luctus. Integer at erat et nulla fringilla ultrices sed non orci. Suspendisse tristique consectetur nulla egestas vehicula. Nam faucibus arcu a augue tincidunt faucibus ut tempus nibh. Pellentesque in felis id erat egestas hendrerit. Proin et dolor tortor. Suspendisse est lectus, efficitur et odio vitae, hendrerit malesuada tellus. Etiam malesuada neque at orci tincidunt imperdiet. Sed eleifend eu leo sed accumsan. Duis turpis libero, aliquam nec vulputate in, faucibus ut mi. Nullam porttitor odio est, euismod vulputate sapien placerat id. Mauris molestie sed arcu vitae pellentesque. Donec lacinia ultricies sem eu porta. Vestibulum porta diam purus, in interdum dui posuere id.",
-        "problem" : "Clients struggled with locating emails that had validation problems in our User Interface, leading to time lost and frustration.",
-        "solution" : "I designed a non-intrusive left-border validation system to highlight emails that needed attention.",
-        "outcome" : "Developers approved and implemented the design, and client testing confirmed it effectively addressed their locating issues."
+        "projectDetails" : "",
+        "problem" : " The UI's poor visibility of email validation errors negatively impacted the client experience, causing frustration and wasted time.",
+        "solution" : " I designed a user-friendly left-border validation system that clearly flagged emails needing attention without being disruptive.",
+        "outcome" : " Following developer approval and implementation, client testing demonstrated the design's success in addressing their email location issues."
     },
     {
         "id" : 3,
@@ -38,11 +38,11 @@
         "projectName" : "Conversations",
         "jobTitle" : "UX/UI Design",
         "jobColor" : "pink",
-        "excerpt" : "Designing a chat system to allow teams to communicate changes needed in a email and to review any changes that has been made and notifing users inside the WebApp.",
-        "projectDetails" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed elementum ligula quam, a congue risus congue ut. Suspendisse vestibulum nisi sapien, ut molestie nisi elementum vel. Donec id sagittis quam. Fusce sit amet maximus felis. Pellentesque porttitor venenatis leo eu luctus. Integer at erat et nulla fringilla ultrices sed non orci. Suspendisse tristique consectetur nulla egestas vehicula. Nam faucibus arcu a augue tincidunt faucibus ut tempus nibh. Pellentesque in felis id erat egestas hendrerit. Proin et dolor tortor. Suspendisse est lectus, efficitur et odio vitae, hendrerit malesuada tellus. Etiam malesuada neque at orci tincidunt imperdiet. Sed eleifend eu leo sed accumsan. Duis turpis libero, aliquam nec vulputate in, faucibus ut mi. Nullam porttitor odio est, euismod vulputate sapien placerat id. Mauris molestie sed arcu vitae pellentesque. Donec lacinia ultricies sem eu porta. Vestibulum porta diam purus, in interdum dui posuere id.",
-        "problem" : "Clients struggled with communicating exactly what needs to be changed in an email, leading to time lost and frustration.",
-        "solution" : "I designed chat system to highlight specific parts of an emails that needed attention and reviewing and allow a communication chain to start to foster better collaboration and finished email.",
-        "outcome" : "Developers approved and implemented the design, and client testing confirmed it effectively addressed their communication issues."
+        "excerpt" : " To improve email collaboration, I designed a chat system that allows teams to communicate changes, review revisions, and receive in-app notifications, streamlining the workflow.",
+        "projectDetails" : "",
+        "problem" : " The inability of clients to effectively communicate desired email changes between their team caused substantial time loss and frustration.",
+        "solution" : " I designed a chat system that streamlines email review by allowing users within the clients team to highlight specific areas and initiate collaborative discussions, resulting in more efficient email finalization.",
+        "outcome" : " The design, approved and implemented by developers, successfully resolved the clients' communication challenges, as validated by client testing."
     },
     {
         "id" : 4,
@@ -53,11 +53,11 @@
         "projectName" : "Recent Exports",
         "jobTitle" : "UI Design",
         "jobColor" : "indigo",
-        "excerpt" : "Redesigning a recent exports component to allow teams to notify users which exports are in progress, recently completed and show previously completed for an easy access.",
-        "projectDetails" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed elementum ligula quam, a congue risus congue ut. Suspendisse vestibulum nisi sapien, ut molestie nisi elementum vel. Donec id sagittis quam. Fusce sit amet maximus felis. Pellentesque porttitor venenatis leo eu luctus. Integer at erat et nulla fringilla ultrices sed non orci. Suspendisse tristique consectetur nulla egestas vehicula. Nam faucibus arcu a augue tincidunt faucibus ut tempus nibh. Pellentesque in felis id erat egestas hendrerit. Proin et dolor tortor. Suspendisse est lectus, efficitur et odio vitae, hendrerit malesuada tellus. Etiam malesuada neque at orci tincidunt imperdiet. Sed eleifend eu leo sed accumsan. Duis turpis libero, aliquam nec vulputate in, faucibus ut mi. Nullam porttitor odio est, euismod vulputate sapien placerat id. Mauris molestie sed arcu vitae pellentesque. Donec lacinia ultricies sem eu porta. Vestibulum porta diam purus, in interdum dui posuere id.",
-        "problem" : "Clients struggled with knowing which exports were finished, leading to time lost and frustration.",
-        "solution" : "I redesigned the recent exports component to highlight which email exports were recently finished, adding in a time stamp and chip to clearly show different states.",
-        "outcome" : "Developers approved and implemented the design, and client testing confirmed it effectively addressed their time lost and frustration issues."
+        "excerpt" : " To enhance user visibility and accessibility, I redesigned the recent exports component to display in-progress, recently completed, and past exports ensuring easy access to exports. ",
+        "projectDetails" : "",
+        "problem" : " Clients experienced frustration and time loss due to the ambiguity surrounding export completion.",
+        "solution" : " To improve clarity, I redesigned the recent exports component to provide clear visual indicators of completed email exports, including timestamps and status chips.",
+        "outcome" : " The implemented design, approved by developers, successfully resolved the clients' issues of time loss and frustration, as validated by client testing."
     },
     {
         "id" : 5,
@@ -68,11 +68,11 @@
         "projectName" : "Email Design System General Tab",
         "jobTitle" : "UX/UI Design",
         "jobColor" : "pink",
-        "excerpt" : "Designing a generals tab to show users information about an Email Design System that has been uploaded and configured in Taxi For Email for marketers in a clients organisation.",
-        "projectDetails" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed elementum ligula quam, a congue risus congue ut. Suspendisse vestibulum nisi sapien, ut molestie nisi elementum vel. Donec id sagittis quam. Fusce sit amet maximus felis. Pellentesque porttitor venenatis leo eu luctus. Integer at erat et nulla fringilla ultrices sed non orci. Suspendisse tristique consectetur nulla egestas vehicula. Nam faucibus arcu a augue tincidunt faucibus ut tempus nibh. Pellentesque in felis id erat egestas hendrerit. Proin et dolor tortor. Suspendisse est lectus, efficitur et odio vitae, hendrerit malesuada tellus. Etiam malesuada neque at orci tincidunt imperdiet. Sed eleifend eu leo sed accumsan. Duis turpis libero, aliquam nec vulputate in, faucibus ut mi. Nullam porttitor odio est, euismod vulputate sapien placerat id. Mauris molestie sed arcu vitae pellentesque. Donec lacinia ultricies sem eu porta. Vestibulum porta diam purus, in interdum dui posuere id.",
-        "problem" : "Clients lacked clarity on design system configuration, errors, edit history, and team contacts, causing frustration.",
-        "solution" : "I designed the general tab to display the configured Email Design System, preview it, show upload errors, and list the last editor and owner.",
-        "outcome" : "Developers approved and implemented the design, and client testing confirmed it effectively addressed their time lost and frustration issues."
+        "excerpt" : " I designed a 'Generals' tab to provide marketers within client organizations with key information about their uploaded and configured Email Design System in Taxi For Email for greater visibility and ease of access.",
+        "projectDetails" : "",
+        "problem" : " Clients experienced frustration due to the lack of clear information regarding design system configuration, errors, edit history, and team contact details.",
+        "solution" : " I designed the 'General' tab to provide a comprehensive overview of the configured Email Design System, including a preview, error reports, and details about the last editor and owner.",
+        "outcome" : " The design, after successful developer implementation and client validation, significantly reduced time lost and alleviated client frustration."
     },
     {
         "id" : 6,
@@ -82,12 +82,12 @@
         "companyColor" : "blue",
         "projectName" : "Email Design System Brands Tab",
         "jobTitle" : "UI Design",
-        "jobColor" : "blue",
-        "excerpt" : "Redesigning an Email Design System tab for Brand settings to allow teams to set parameters based on their Branding needs with default content, locked content and dynamic content.",
-        "projectDetails" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed elementum ligula quam, a congue risus congue ut. Suspendisse vestibulum nisi sapien, ut molestie nisi elementum vel. Donec id sagittis quam. Fusce sit amet maximus felis. Pellentesque porttitor venenatis leo eu luctus. Integer at erat et nulla fringilla ultrices sed non orci. Suspendisse tristique consectetur nulla egestas vehicula. Nam faucibus arcu a augue tincidunt faucibus ut tempus nibh. Pellentesque in felis id erat egestas hendrerit. Proin et dolor tortor. Suspendisse est lectus, efficitur et odio vitae, hendrerit malesuada tellus. Etiam malesuada neque at orci tincidunt imperdiet. Sed eleifend eu leo sed accumsan. Duis turpis libero, aliquam nec vulputate in, faucibus ut mi. Nullam porttitor odio est, euismod vulputate sapien placerat id. Mauris molestie sed arcu vitae pellentesque. Donec lacinia ultricies sem eu porta. Vestibulum porta diam purus, in interdum dui posuere id.",
-        "problem" : "Clients lacked clarity on their branding configuration not knowing which fields related to which modules and if these module had inherited styles causing frustration.",
-        "solution" : "I redesigned the branding tab to display the configured modules, fields using accordians component and adding icons to easily identify the nesting.",
-        "outcome" : "Developers approved and implemented the design, and client testing confirmed it effectively addressed their time lost and frustration issues."
+        "jobColor" : "indigo",
+        "excerpt" : "I redesigned the Brand settings within the Email Design System tab to empower clients wanting granular control over their branding, including the ability to define default, locked, and dynamic content parameters for their teams to adhere to.",
+        "projectDetails" : "",
+        "problem" : "Clients struggled to understand how to setup branding configurations, experiencing confusion regarding the relationship between fields and modules, as well as the inheritance of styles, leading to frustration.",
+        "solution" : " I redesigned the branding tab to enhance user experience by organizing modules and fields with accordions and using icons to clearly show nesting hierarchies.",
+        "outcome" : " Through developer implementation and client validation, the design demonstrably resolved the issues that were causing confusion."
     },
     {
         "id" : 7,
@@ -98,11 +98,11 @@
         "projectName" : "Naming Convention Editor",
         "jobTitle" : "UX/UI Design",
         "jobColor" : "pink",
-        "excerpt" : "Designing a naming configuration system to allow teams to create mailing names for a campaign with a strict naming style for organisations to quickly find mailings across many campaigns.",
-        "projectDetails" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed elementum ligula quam, a congue risus congue ut. Suspendisse vestibulum nisi sapien, ut molestie nisi elementum vel. Donec id sagittis quam. Fusce sit amet maximus felis. Pellentesque porttitor venenatis leo eu luctus. Integer at erat et nulla fringilla ultrices sed non orci. Suspendisse tristique consectetur nulla egestas vehicula. Nam faucibus arcu a augue tincidunt faucibus ut tempus nibh. Pellentesque in felis id erat egestas hendrerit. Proin et dolor tortor. Suspendisse est lectus, efficitur et odio vitae, hendrerit malesuada tellus. Etiam malesuada neque at orci tincidunt imperdiet. Sed eleifend eu leo sed accumsan. Duis turpis libero, aliquam nec vulputate in, faucibus ut mi. Nullam porttitor odio est, euismod vulputate sapien placerat id. Mauris molestie sed arcu vitae pellentesque. Donec lacinia ultricies sem eu porta. Vestibulum porta diam purus, in interdum dui posuere id.",
-        "problem" : "Clients struggled with inconsistent mailing names due to a lack of enforced naming conventions accross their organisation.",
-        "solution" : "I designed a naming convention editor that easily allowed the client to set their own naming standards using chip component and modals to set parameters.",
-        "outcome" : "Developers approved and implemented the design, and client testing confirmed it effectively addressed setting strict naming styles for mailings."
+        "excerpt" : " A customizable naming configuration system designed to allow teams to establish a strict naming convention for campaign mailings, improving organization-wide searchability.",
+        "projectDetails" : "",
+        "problem" : " Clients faced operational difficulties due to the inconsistent nature of mailing names, which stemmed from a lack of enforced naming standards.",
+        "solution" : " I created a user-friendly naming convention editor that empowers clients to define their own naming standards through intuitive chip components and parameter-setting modals.",
+        "outcome" : " The design's implementation, validated by client testing, successfully enabled clients to establish and enforce strict mailing naming styles."
     },
     {
         "id" : 8,
@@ -113,10 +113,11 @@
         "projectName" : "Naming Convention Input",
         "jobTitle" : "UX/UI Design",
         "jobColor" : "pink",
-        "excerpt" : "Designing a input field that utilises a naming convention that allows users to easily create a mailing name with no hassel and adheres to the strict mailing name needs.",
-        "projectDetails" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed elementum ligula quam, a congue risus congue ut. Suspendisse vestibulum nisi sapien, ut molestie nisi elementum vel. Donec id sagittis quam. Fusce sit amet maximus felis. Pellentesque porttitor venenatis leo eu luctus. Integer at erat et nulla fringilla ultrices sed non orci. Suspendisse tristique consectetur nulla egestas vehicula. Nam faucibus arcu a augue tincidunt faucibus ut tempus nibh. Pellentesque in felis id erat egestas hendrerit. Proin et dolor tortor. Suspendisse est lectus, efficitur et odio vitae, hendrerit malesuada tellus. Etiam malesuada neque at orci tincidunt imperdiet. Sed eleifend eu leo sed accumsan. Duis turpis libero, aliquam nec vulputate in, faucibus ut mi. Nullam porttitor odio est, euismod vulputate sapien placerat id. Mauris molestie sed arcu vitae pellentesque. Donec lacinia ultricies sem eu porta. Vestibulum porta diam purus, in interdum dui posuere id.",
-        "problem" : "Users struggled with knowing enforced naming conventions and how they should name their mailings accordingly leading to time lost and frustration.",
-        "solution" : "I designed a input system that clearly offered select fields for easy selection as an when a user starts typing to provide the naming standard that needs to be used.",
-        "outcome" : "Developers approved and implemented the design, and client testing confirmed it effectively addressed knowing how to name a mailing."
+        "excerpt" : "I designed an input field that simplifies mailing name creation by leveraging a naming convention, ensuring users can effortlessly adhere to strict naming requirements.",
+        "projectDetails" : "",
+        "problem" : " Users were unclear about the enforced naming conventions and how to apply them to their mailings, resulting in frustration and wasted time.",
+        "solution" : " I developed an input system that utilizes selectable fields to guide users through the naming convention, providing real-time assistance as they type.",
+        "outcome" : " Client testing confirmed that the design, after developer approval and implementation, effectively addressed the users' need for clarity on how to name a mailing."
     }
 ]
+

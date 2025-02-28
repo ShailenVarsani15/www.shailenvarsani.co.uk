@@ -44,7 +44,8 @@
 
   --paragraph-text-base: 1.25rem;
   --paragraph-text-lg: 1.625rem;
-  --paragraph-text-sm: 1.2rem;
+  --paragraph-text-sm: 1rem;
+  --text-xs: 0.8rem;
 
   --font-weight-skinny: 100;
 
@@ -152,5 +153,9 @@ button {
 
   p {
     font-size: var(--paragraph-text-sm);
+  }
+
+  button span {
+    font-size: var(--text-xs);
   }
 }
