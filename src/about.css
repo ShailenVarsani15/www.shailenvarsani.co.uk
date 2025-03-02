@@ -97,7 +97,7 @@
     }
 }
 
-@media only screen and (max-width: 380px) {
+@media only screen and (max-width: 500px) {
     .about {
         padding-top: 140px;
     }
