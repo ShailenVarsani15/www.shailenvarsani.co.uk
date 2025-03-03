@@ -66,18 +66,24 @@ export function Contact() {
                     <div className="contact__block">
                         <h3><i class="fa-solid fa-heart"></i>Social Media</h3>
                         <div className="social__buttons">
-                            <Button variant="button" size="sm" className="button__social hidden inline-block lg:flex justify-between gap-2">
-                                <span className="">LinkedIn</span>
-                                <i className="fa-brands fa-linkedin-in text-lg" />
-                            </Button>
-                            <Button variant="button" size="sm" className="button__social hidden inline-block lg:flex justify-between gap-2">
-                                <span className="">Instagram</span>
-                                <i className="fa-brands fa-instagram text-lg" />
-                            </Button>
-                            <Button variant="button" size="sm" className="button__social hidden inline-block lg:flex justify-between gap-2">
-                                <span className="">Facebook</span>
-                                <i className="fa-brands fa-facebook text-lg" />
-                            </Button>
+                            <a target="blank" href="www.linkedin.com/in/shailenvarsani/">
+                                <Button variant="button" size="sm" className="button__social hidden inline-block lg:flex justify-between gap-2">
+                                    <span className="">LinkedIn</span>
+                                    <i className="fa-brands fa-linkedin-in text-lg" />
+                                </Button>
+                            </a>
+                            <a target="blank" href="www.instagram.com/shailenvarsani/">
+                                <Button variant="button" size="sm" className="button__social hidden inline-block lg:flex justify-between gap-2">
+                                    <span className="">Instagram</span>
+                                    <i className="fa-brands fa-instagram text-lg" />
+                                </Button>
+                            </a>
+                            <a target="blank" href="www.facebook.com/shailenhvarsani/">
+                                <Button variant="button" size="sm" className="button__social hidden inline-block lg:flex justify-between gap-2">
+                                    <span className="">Facebook</span>
+                                    <i className="fa-brands fa-facebook text-lg" />
+                                </Button>
+                            </a>
                         </div>
 
                     </div>
