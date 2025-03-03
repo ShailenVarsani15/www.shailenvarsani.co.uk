@@ -135,6 +135,9 @@
 
     .hero__introduction {
         margin-top: calc(100vh - 70vh);
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
     }
 
     .hero__introduction p {
@@ -148,12 +151,6 @@
 }
 
 @media only screen and (max-width: 380px) {
-    .hero__introduction {
-        width: 90%;
-        margin-left: 5%;
-        margin-right: 5%;
-    }
-
     .hero__graphics {
         margin-top: -100px !important;
         margin-left: -60%;
