@@ -98,7 +98,7 @@
         "projectName" : "Naming Convention Editor",
         "jobTitle" : "UX/UI Design",
         "jobColor" : "pink",
-        "excerpt" : " A customizable naming configuration system designed to allow teams to establish a strict naming convention for campaign mailings, improving organization-wide searchability.",
+        "excerpt" : "I designed customisable naming configuration system designed to allow teams to establish a strict naming convention for campaign mailings, improving organization-wide searchability.",
         "projectDetails" : "",
         "problem" : " Clients faced operational difficulties due to the inconsistent nature of mailing names, which stemmed from a lack of enforced naming standards.",
         "solution" : " I created a user-friendly naming convention editor that empowers clients to define their own naming standards through intuitive chip components and parameter-setting modals.",
