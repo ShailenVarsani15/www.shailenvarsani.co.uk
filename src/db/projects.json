@@ -53,7 +53,7 @@
         "projectName" : "Recent Exports",
         "jobTitle" : "UI Design",
         "jobColor" : "indigo",
-        "excerpt" : " To enhance user visibility and accessibility, I redesigned the recent exports component to display in-progress, recently completed, and past exports ensuring easy access to exports. ",
+        "excerpt" : "To significantly improve user visibility and accessibility, I implemented a redesigned 'Recent Exports' component. This now provides a clear and intuitive view of in-progress, recently completed, and past exports, resulting in ease of access.",
         "projectDetails" : "",
         "problem" : " Clients experienced frustration and time loss due to the ambiguity surrounding export completion.",
         "solution" : " To improve clarity, I redesigned the recent exports component to provide clear visual indicators of completed email exports, including timestamps and status chips.",
