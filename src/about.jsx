@@ -18,12 +18,12 @@ export function About() {
     return(
         <div id="about" className="about flex items-center lg:gap-20 lg:px-80 lg:py-60">
             <div className="about__picture flex items-center ">
-                <div className="basis-3xs">
+                <div className="">
                     <img className="about__picture__profile" src={BASE_URL + "/images/shailen-picture.png"} alt="" />
+                    {/* <div className="about__graphics__square bg-[var(--color-primary-30)]"></div>
                     <div className="about__graphics__square bg-[var(--color-primary-30)]"></div>
                     <div className="about__graphics__square bg-[var(--color-primary-30)]"></div>
-                    <div className="about__graphics__square bg-[var(--color-primary-30)]"></div>
-                    <div className="about__graphics__square bg-[var(--color-primary-30)]"></div>
+                    <div className="about__graphics__square bg-[var(--color-primary-30)]"></div> */}
                 </div>
             </div>
             <div className="about__info flex items-center p-8">
