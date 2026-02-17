@@ -8,7 +8,7 @@
 }
 
 .about__picture__profile {
-    position: relative;
+    position: relative; 
     border-radius: 8px;
     z-index: 2;
 }

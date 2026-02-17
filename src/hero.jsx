@@ -26,7 +26,7 @@ export function Hero() {
         <div className="hero mt-15 lg:mt-19">
             <div className="flex flex-wrap lg:mx-40 justify-around items-center">
                 <div className="hero__introduction lg:mx-8">
-                    <h1 className="text-6xl">Begin your transformation.</h1>
+                    <h1 className="text-6xl">Shailen Varsani's Portfolio</h1>
                     <p>I transform ideas into seamless digital experiences. I'm Shailen Varsani, a UI/UX Designer passionate about creating user-centered solutions that solve real problems.</p>
           <div className="flex items-center gap-x-4">
                 <Button onClick={scrollToContact} href="" className="hero__button primary shadow-1g flex justify-between items-end">
