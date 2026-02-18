@@ -16,8 +16,8 @@ function App() {
     <>
     <StickyNavbar />
     <Hero />
-    <About />
     <Work />
+    <About />
     <Contact />
     <Footer />
     </>

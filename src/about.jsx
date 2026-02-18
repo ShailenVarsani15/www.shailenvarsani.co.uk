@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-import {Button} from '@material-tailwind/react'
+import {Button} from '@material-tailwind/react';
 
 export function About() {
 
@@ -16,7 +16,7 @@ export function About() {
       };
  
     return(
-        <div id="about" className="about flex items-center lg:gap-20 lg:px-80 lg:py-60">
+        <div id="about" className="about flex">
             <div className="about__picture flex items-center ">
                 <div className="">
                     <img className="about__picture__profile" src={BASE_URL + "/images/shailen-picture.png"} alt="" />

@@ -1,7 +1,7 @@
 .work {
-    background-color: var(--color-black-20);
-    padding-top: 80px;
-    padding-bottom: 80px;
+    background-color: #ffffff;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .work > h2 {

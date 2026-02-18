@@ -2,9 +2,9 @@
 @import "tailwindcss";
 
 @theme {
-  --color-primary: #00424d;
+  --color-primary: #f3722c;
   --color-primary-hover: #005b6a;
-  --color-secondary: #006879;
+  --color-secondary: #f94144;
   --color-secondary-hover: #005361;
 
   --color-water: #438EFF;
@@ -34,7 +34,7 @@
   --graphic-square-sm: 70px;
   --graphic-square-sm-spacing: 60px;
 
-  --heading-1-lg: 63px;
+  --heading-1-lg: 52px;
   --heading-2-lg: 38px;
   --heading-3-lg: 22px;
   --heading-4-lg: 18px;
@@ -56,6 +56,8 @@
 
 body {
   font-family: 'Roboto', sans-serif;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 h1 {

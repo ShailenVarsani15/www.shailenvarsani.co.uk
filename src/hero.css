@@ -1,13 +1,12 @@
 .hero {
     position: relative;
     width: 100%;
-    height: calc(100vh - 5rem);
+    height: 100svh;
     overflow: hidden;
-    background: linear-gradient(90deg, rgba(0,66,77,1) 0%, rgba(0,104,121,1) 100%);
+    background: linear-gradient(90deg, #1a1a1a 0%, #272727 100%);
 }
 
 .hero__introduction {
-    opacity: 100%;
     width: 800px;
     color: var(--color-white);
 }
@@ -20,32 +19,155 @@
     color: var(--color-white);
 }
 
-.hero__button {
-    width: 200px;
-    font-size: 1rem;
-    padding: 12px 16px;
-    background-color: var(--color-primary-50);
-    border-radius: 8px;
-    color: var(--color-white);
+.hero__introduction--link {
+    font-size: 26px;
+    position: relative;
 }
 
-.hero__button:hover {
-    background-color: var(--color-primary-30);
-    color: var(--color-white);
+.hero__introduction--link:hover {
+    color: inherit;
 }
 
-.hero_button > span {
-    font-size: 20px;
-    font-weight: 400;
-    color: var(--color-white);
+.hero__introduction--link::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #ff5c7a;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.hero__introduction--link:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+  color: #ff5c7a;
+}
+
+.hover-underline-animation::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #0087ca;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.hero__linkDown {
+    position: absolute;
+    bottom: 0;
+    right: 20%;
+    width: 110px;
+    height: 120px;
+    background-color: #ffffff;
+}
+
+.arrow-down {
+  position: absolute;
+  left: 40px;
+  top: 10px;
+  width: 24px;
+  height: 24px;
+}
+
+.chevron {
+  position: absolute;
+  width: 28px;
+  height: 2px;
+  opacity: 0;
+  transform: scale3d(0.5, 0.5, 0.5);
+  animation: move 3s ease-out infinite;
+}
+
+.chevron:first-child {
+  animation: move 3s ease-out 1s infinite;
+}
+
+.chevron:nth-child(2) {
+  animation: move 3s ease-out 2s infinite;
+}
+
+.chevron:before,
+.chevron:after {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 51%;
+  background: #1d1d1d;
+}
+
+.chevron:before {
+  left: 0;
+  transform: skew(0deg, 30deg);
+}
+
+.chevron:after {
+  right: 0;
+  width: 50%;
+  transform: skew(0deg, -30deg);
+}
+
+@keyframes move {
+  25% {
+    opacity: 1;
+
+  }
+  33% {
+    opacity: 1;
+    transform: translateY(30px);
+  }
+  67% {
+    opacity: 1;
+    transform: translateY(40px);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(55px) scale3d(0.5, 0.5, 0.5);
+  }
+}
+
+.text {
+  display: block;
+  margin-top: 75px;
+  margin-left: -30px;
+  font-size: 13px;
+  color: #373737;
+  text-transform: uppercase;
+  white-space: nowrap;
+  opacity: .25;
+  animation: pulse 2s linear alternate infinite;
+}
+
+@keyframes pulse {
+  to {
+    opacity: 1;
+  }
 }
 
 .secondary {
-    background-color: var(--color-primary-60);
+    background-color: #90be6d;
 }
 
 .secondary:hover {
-    background-color: var(--color-primary-20);
+    background-color: #43aa8b;
 }
 
 .hero__graphics {

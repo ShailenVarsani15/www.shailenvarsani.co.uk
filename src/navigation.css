@@ -1,6 +1,29 @@
+@import './app.css';
+
+/* Base navigation state */
 .navigation {
-    background-color: #00434e;
-    border: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80px; /* Adjust to your preferred navbar height */
+  display: flex;
+  align-items: center;
+  transition: all 0.4s ease-in-out;
+  z-index: 9999; /* Keeps it above other content */
+  overflow: visible; /* Prevents menu from being cut off */
+}
+
+/* State when user has NOT scrolled */
+.navigation.transparent {
+  background-color: transparent;
+}
+
+/* State when user HAS scrolled */
+.navigation.scrolled {
+  background-color: #1a1a1a; /* Your desired background color */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  height: 100px; /* Optional: shrink navbar slightly on scroll for effect */
 }
 
 .menu-icon {
