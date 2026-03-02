@@ -18,17 +18,11 @@ export function About() {
     return(
         <div id="about" className="about flex">
             <div className="about__picture flex items-center ">
-                <div className="">
-                    <img className="about__picture__profile" src={BASE_URL + "/images/shailen-picture.png"} alt="" />
-                    {/* <div className="about__graphics__square bg-[var(--color-primary-30)]"></div>
-                    <div className="about__graphics__square bg-[var(--color-primary-30)]"></div>
-                    <div className="about__graphics__square bg-[var(--color-primary-30)]"></div>
-                    <div className="about__graphics__square bg-[var(--color-primary-30)]"></div> */}
-                </div>
+
             </div>
             <div className="about__info flex items-center p-8">
                 <div className="about__info__title">
-                    <h2>A little bit about me</h2>
+                    <h2>A little bit about me </h2>
                     <p>I'm Shailen Varsani, a UX/UI Designer passionate about creating web applications that solve real problems for real people.</p>
                     <p>With 4 years of commercial experience, I've had the privilege of helping numerous startups achieve significant growth through thoughtful and user-centered design.</p>
                     <p>My skillset spans the entire design process, from user research and wireframing to component building and prototyping. I thrive in collaborative environments and am meticulous in my approach, ensuring every detail is considered.  My focus areas are fintech and marketing, and I'm always excited to take on new challenges.</p>

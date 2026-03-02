@@ -1,0 +1,81 @@
+.keywords {
+    position: relative;
+    background-color: #ffffff;
+    height: 700px;
+}
+
+.keywords h2 {
+    margin-bottom: -40px;
+    color: #000000;
+    font-size: 120px;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+
+.accentsLeft {
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+    padding: 0 20px;
+    position: absolute;
+    top: 50%;
+    right: 0;
+}
+
+.accentsRight {
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+    padding: 0 20px;
+    position: absolute;
+    top: 50%;
+}
+
+.accentsTop {
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+    padding: 20px 0;
+    position: absolute;
+    top: 0;
+    left: 45%;
+}
+
+.accentsBottom {
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+    padding: 20px 0;
+    position: absolute;
+    bottom: 0;
+    left: 45%;
+}
+
+.accentsLeft span {
+    float: left;
+    font-size: 20px;
+    font-weight: 500;
+    color: #000000;
+}
+
+.accentsRight span {
+    float: left;
+    font-size: 20px;
+    font-weight: 500;
+    color: #000000;
+}
+
+.accentsTop span {
+    float: left;
+    font-size: 20px;
+    font-weight: 500;
+    color: #000000;
+}
+
+.accentsBottom span {
+    float: left;
+    font-size: 20px;
+    font-weight: 500;
+    color: #000000;
+}
