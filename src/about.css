@@ -1,146 +1,48 @@
 .about {
     width: 100%;
-    height: 900px;
-    background-color: #ffffff;
+    padding: 16rem 6rem;
+    background-color: var(--color-black);
 }
 
-.about__picture {
-    position: relative;
+.sectionLeft {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 10rem;
 }
 
-.about__picture__profile {
-    position: relative; 
-    border-radius: 8px;
-    z-index: 2;
+.sectionRight {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: 10rem;
 }
 
-.about__graphics__square {
-    position: absolute;
-    width: var(--graphic-square-lg);
-    height: var(--graphic-square-lg);
-    border-radius: 10px;
-    transform: rotate(45deg);
+.aboutInformation {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
 }
 
-.about__graphics__square:nth-child(2) {
-    left: 30px;
-    top: -60px;
-    animation: opacity-pulse-variation-one 4s infinite;
-    z-index: 3;
+.journeyInformation {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
 }
 
-.about__graphics__square:nth-child(3) {
-    left: -10px;
-    top: 70px;
-    animation: opacity-pulse-variation-two 3s infinite;
-    z-index: 1;
+.hobbiesInformation {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
 }
 
-.about__graphics__square:nth-child(4) {
-    left: 210px;
-    top: 260px;
-    animation: opacity-pulse-variation-one 5s infinite;
-    z-index: 3;
+.aboutInformation h2,
+.journeyInformation h2,
+.hobbiesInformation h2 {
+    color: var(--color-flower);
 }
 
-.about__graphics__square:nth-child(5) {
-    left: 70px;
-    top: 410px;
-    animation: opacity-pulse-variation-two 3s infinite;
-    z-index: 3;
-}
-
-@media only screen and (max-width: 500px) {
-    .about {
-        flex-wrap: wrap;
-        padding: 160px 0 70px 0;
-    }
-
-    .about__picture {
-        display: flex;
-        justify-content: space-evenly;
-    }
-
-    .about__graphics__square {
-        position: absolute;
-        width: var(--graphic-square-lg);
-        height: var(--graphic-square-lg);
-        border-radius: 10px;
-        transform: rotate(45deg);
-    }
-    
-    .about__graphics__square:nth-child(2) {
-        left: 130px;
-        top: -60px;
-        animation: opacity-pulse-variation-one 4s infinite;
-        z-index: 3;
-    }
-    
-    .about__graphics__square:nth-child(3) {
-        left: 90px;
-        top: 70px;
-        animation: opacity-pulse-variation-two 3s infinite;
-        z-index: 1;
-    }
-    
-    .about__graphics__square:nth-child(4) {
-        left: 320px;
-        top: 260px;
-        animation: opacity-pulse-variation-one 5s infinite;
-        z-index: 3;
-    }
-    
-    .about__graphics__square:nth-child(5) {
-        left: 170px;
-        top: 410px;
-        animation: opacity-pulse-variation-two 3s infinite;
-        z-index: 3;
-    }
-}
-
-@media only screen and (max-width: 500px) {
-    .about {
-        padding-top: 140px;
-    }
-    
-    .about__info {
-        margin-top: 30px;
-        padding-bottom: 0;
-    }
-
-    .about__graphics__square {
-        position: absolute;
-        width: var(--graphic-square-sm);
-        height: var(--graphic-square-sm);
-        border-radius: 10px;
-        transform: rotate(45deg);
-    }
-    
-    .about__graphics__square:nth-child(2) {
-        left: 100px;
-        top: -47px;
-        animation: opacity-pulse-variation-one 4s infinite;
-        z-index: 3;
-    }
-    
-    .about__graphics__square:nth-child(3) {
-        left: 40px;
-        top: 70px;
-        animation: opacity-pulse-variation-two 3s infinite;
-        z-index: 1;
-    }
-    
-    .about__graphics__square:nth-child(4) {
-        left: 280px;
-        top: 290px;
-        animation: opacity-pulse-variation-one 5s infinite;
-        z-index: 3;
-    }
-    
-    .about__graphics__square:nth-child(5) {
-        left: 170px;
-        top: 410px;
-        animation: opacity-pulse-variation-two 3s infinite;
-        z-index: 3;
-    }
+.scrollingText {
+    font-size: 3rem;
+    font-weight: 500;
 }

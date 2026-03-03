@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import { StickyNavbar } from "./navigation";
+import NavBar from "./navBar";
 import Hero from './hero';
 import About from './about';
 import Work from './work';
@@ -16,7 +17,8 @@ function App() {
 
   return (
     <>
-    <StickyNavbar />
+    {/* <StickyNavbar /> */}
+    <NavBar />
     <Hero />
     <Work />
     <Keywords />

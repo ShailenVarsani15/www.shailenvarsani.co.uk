@@ -1,3 +1,7 @@
+@theme {
+  --color-blue: #61e9e9;
+}
+
 p {
     color: #000000;
 }
